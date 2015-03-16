@@ -1,0 +1,145 @@
+@media only screen and (max-width: 680px) {
+    nav ul li {
+        padding: 3px 3px;
+    }
+}
+#intro {
+    padding: 210px 0 100px 0;
+}
+@media only screen and (max-width: 960px) {
+    .disappear {
+        display: none;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .appear {
+        display: none;
+    }
+}
+.right {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+    text-align: center;
+}
+.right:before,
+.right:after {
+    content: '';
+    display: table;
+}
+.right:after {
+    clear: both;
+}
+.right:last-child {
+    margin-right: 0%;
+}
+@media only screen and (max-width: 520px) {
+    .right {
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right:first-child {
+        margin-left: auto;
+    }
+    .right:last-child {
+        margin-right: auto;
+    }
+}
+.right p {
+    text-align: center;
+}
+.left {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+}
+.left:before,
+.left:after {
+    content: '';
+    display: table;
+}
+.left:after {
+    clear: both;
+}
+.left:last-child {
+    margin-right: 0%;
+}
+@media only screen and (max-width: 520px) {
+    .left {
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left:first-child {
+        margin-left: auto;
+    }
+    .left:last-child {
+        margin-right: auto;
+    }
+}
+#proposal,
+#ceremony,
+#reception,
+#weddingparty,
+#lodging,
+#registries,
+#venue,
+#story {
+    padding: 100px 0;
+}
+#proposal img {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+}
+#proposal img:before,
+#proposal img:after {
+    content: '';
+    display: table;
+}
+#proposal img:after {
+    clear: both;
+}
+#proposal img:nth-child(2n) {
+    margin-right: 0%;
+    float: right;
+}
+#proposal img:nth-child(2n+1) {
+    clear: both;
+}
+@media only screen and (max-width: 680px) {
+    #proposal img {
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0;
+    }
+    #proposal img:first-child {
+        margin-left: auto;
+    }
+    #proposal img:last-child {
+        margin-right: auto;
+    }
+}
