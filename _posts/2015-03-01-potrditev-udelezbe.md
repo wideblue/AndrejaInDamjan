@@ -1,12 +1,9 @@
 ---
-title: Kje in kdaj
-bg: "#86C5D4"
-color: black
-published: true
+title: "Udeležba"
+bg: "#A9B8BA"
+color: white
 ---
 
-## Kje in kdaj
+## Potrditev udeležbe
 
-#### Poročila se bova 27. junija 2015 v Orehovem gaju,  (še uro morava napisat!) kjer se bo nadaljevalo tudi slavje in zabava do jutranjih ur.
-
-#### http://orehovgaj.si/kje-smo/
+#### Prosiva, da udeležbo potrdite najkasneje do 31. maja 2015 s pomočjo spodnjega spletnega obrazca ali na telefonsko številko 041735768 (Andreja) ali 040321355 (Damjan) oz. na e-poštni naslov akuzman@gmail.com oz. bigwideblue@gmail.com.
