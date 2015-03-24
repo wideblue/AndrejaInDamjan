@@ -4,21 +4,45 @@
 
 'use strict';
 
+/* for switchery in the form*/
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+    var switchery = new Switchery(html);
+});
+
 /* App Module */
 
-var porokaApp = angular.module('porokaApp', [
-
-    'porokaControllers'
-
-]);
+var porokaApp = angular.module('porokaApp', ['porokaControllers'],
+    function($interpolateProvider) {
+        $interpolateProvider.startSymbol('[{[').endSymbol(']}]');
+    }
+);
 
 /* Controllers */
 
 var porokaControllers = angular.module('porokaControllers', []);
 
-porokaControllers.controller('udelezbaFormCtrl', ['$scope', '$http',
-    function($scope, $http) {
+porokaControllers.controller('udelezbaFormCtrl', ['$scope', '$http', '$location',
+    function($scope, $http, $location ) {
         console.log("Udeležba Angular controler");
+
+
+        $scope.$on('$locationChangeSuccess', function(next, current) {
+
+            var locationSearch = $location.search();
+            if (locationSearch.submitted == "true") {
+                $scope.svat.ime = null;
+                $scope.svat.priimek = null;
+                $scope.svat.spremljevalecIme = null;
+                $scope.svat.otrociStevilo= null;
+                $scope.zahvala = "Hvala za informacijo o udeležbi!";
+                console.log("location submitted true  ");
+            }
+        });
+
+        $scope.svat = {};
+        $scope.svat.udelezba = true;
 
         $scope.update = function(svat) {
             console.log(svat);
@@ -46,4 +70,19 @@ porokaControllers.controller('udelezbaFormCtrl', ['$scope', '$http',
         }
 
 
+    }]);
+
+
+porokaControllers.controller('ExampleController', ['$scope', function($scope) {
+        $scope.master = {};
+
+        $scope.update = function(user) {
+            $scope.master = angular.copy(user);
+        };
+
+        $scope.reset = function() {
+            $scope.user = angular.copy($scope.master);
+        };
+
+        $scope.reset();
     }]);

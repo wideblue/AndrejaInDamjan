@@ -1,3 +1,21 @@
+/* overlay to prevent scrolling over google map*/
+.overlay {
+    background:transparent;
+    position:relative;
+    width:600px;
+    height:450px; /* your iframe height */
+    top:450px;  /* your iframe height */
+    margin-top:-450px;  /* your iframe height */
+}
+/* angular validation */
+.css-form input.ng-invalid.ng-touched {
+    background-color: #FA787E;
+}
+
+.css-form input.ng-valid.ng-touched {
+    background-color: #78FA89;
+}
+/* nice form  */
 form {
     display: block;
     margin: 30px;
