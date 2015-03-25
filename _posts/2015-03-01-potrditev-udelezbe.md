@@ -1,6 +1,6 @@
 ---
 title: "Udeležba"
-bg: "#2A6825"
+bg: "#26323E"
 color: white
 ---
 <div class="left" ng-controller="udelezbaFormCtrl">
