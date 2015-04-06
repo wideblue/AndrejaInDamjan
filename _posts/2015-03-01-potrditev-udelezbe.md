@@ -31,7 +31,7 @@ color: white
               <div class="col-3 switch">
                   <label class="ss-q-item-label" for="entry_1759000815">
                       Pridem: [{[(svat.udelezba) ? " Da": " Ne";]}]
-                      <input ng-model="svat.udelezba" type="checkbox" name="entry.1759000815" value="Potrjujem udeležbo" id="entry_1759000815"
+                      <input ng-model="svat.udelezba" type="checkbox" name="entry.1759000815" value="Da" id="entry_1759000815"
                              role="checkbox" class="js-switch"
                              checked>
                   </label>
