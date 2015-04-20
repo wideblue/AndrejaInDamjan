@@ -7,9 +7,10 @@ published: true
 <div class="left">
     <h3> Kje in kdaj </h3>
 
-     <p>Poročila se bova 27. junija 2015 ob 16. uri v Orehovem gaju. Tam se bo nadaljevalo tudi slavje in zabava do jutranjih ur. </p>
+     <p>Poročila se bova 27. junija 2015 ob 16. uri* v Orehovem gaju. Tam se bo nadaljevalo tudi slavje in zabava do jutranjih ur. </p>
 
    <p><a href= "http://orehovgaj.si/kje-smo/"> Orehov gaj </a></p>
+   <p>* Priporočava, da pridete vsaj pol ure pred obredom.</p>
 </div>
 <div class="right">
   <div class="form-container">
