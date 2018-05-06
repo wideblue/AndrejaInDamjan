@@ -18,7 +18,7 @@ highlighter: pygments
 title:       "Poroka - Andreja in Damjan "
 keywords:    "Poroka"
 description: "Stran z informacijami za svate na poroki Andreje in Damjana"
-source_link: "https://github.com/t413/SinglePaged"
+source_link: "https://wideblue.github.io/AndrejaInDamjan/"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
